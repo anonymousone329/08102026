@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillLab | Learn the skills. Build your future.</title>
+  <meta name="description" content="SkillLab is a fictional academy offering HTML and CSS, JavaScript and UI design courses.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="SkillLab home"><span class="brand-mark" aria-hidden="true">S</span>SkillLab<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn header-btn" href="#courses">Explore courses &rarr;</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Your next chapter starts here</p>
+          <h1 id="hero-title">Learn the skills.<br><span class="accent">Build your future.</span></h1>
+          <p class="lead">Turn your curiosity into practical skills. Explore hands-on courses and create websites you can be proud to share.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#courses">Find your course &rarr;</a>
+            <a class="text-link" href="#about">How we learn &nearr;</a>
+          </div>
+          <p class="hero-meta">Practical projects &middot; Clear guidance &middot; Learn by doing</p>
+        </div>
+        <figure class="hero-figure">
+          <img src="images/hero.svg" width="960" height="640"
+               alt="A laptop screen showing the code symbol, with the words Build something meaningful below it">
+          <figcaption>From your first idea to your finished website.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="courses" aria-labelledby="courses-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Learn something new</p>
+            <h2 id="courses-title">A great place to start</h2>
+          </div>
+          <p class="section-note">Three pathways. One goal: make something that matters.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <img src="images/html-css.svg" width="960" height="640" alt="Illustration of a laptop showing the HTML and CSS code symbol" loading="lazy">
+            <div class="card-body">
+              <div class="card-meta"><span class="badge">Beginner</span><span>4 weeks</span></div>
+              <h3>Website Development</h3>
+              <p>Create well-structured pages and style beautiful, responsive layouts.</p>
+              <p class="tags">HTML &middot; CSS &middot; Responsive design</p>
+              <details>
+                <summary>View course details</summary>
+                <p>Example course: Build a complete web page from a blank file. Your final deliverable is a responsive landing page with documentation. This is fictional teaching content.</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/javascript.svg" width="960" height="640" alt="Illustration of a laptop showing the letters JS" loading="lazy">
+            <div class="card-body">
+              <div class="card-meta"><span class="badge">Intermediate</span><span>6 weeks</span></div>
+              <h3>JavaScript Essentials</h3>
+              <p>Bring your ideas to life with functions, arrays and problem-solving.</p>
+              <p class="tags">Functions &middot; Arrays &middot; Logic</p>
+              <details>
+                <summary>View course details</summary>
+                <p>Example course: Bring your ideas to life with functions, arrays and problem-solving. Your final deliverable is a practical project with documentation. This is fictional teaching content.</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/ui-design.svg" width="960" height="640" alt="Illustration of a laptop showing the letters UI" loading="lazy">
+            <div class="card-body">
+              <div class="card-meta"><span class="badge">Beginner</span><span>3 weeks</span></div>
+              <h3>UI Design Foundations</h3>
+              <p>Design clear interfaces that put people and their needs first.</p>
+              <p class="tags">Layout &middot; Colour &middot; Typography</p>
+              <details>
+                <summary>View course details</summary>
+                <p>Example course: Plan and sketch clear screens before coding them. Your final deliverable is a set of page designs with notes. This is fictional teaching content.</p>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div>
+          <p class="eyebrow">The SkillLab approach</p>
+          <h2 id="about-title">Less watching.<br>More creating.</h2>
+        </div>
+        <div>
+          <p>Start with a clear example, practise one skill at a time, and combine what you learn into a finished project.</p>
+          <ul>
+            <li>Build a real page from a design.</li>
+            <li>Test your layout on different screen sizes.</li>
+            <li>Explain your choices and improve through feedback.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">SkillLab<span class="brand-dot">.</span></p>
+        <p>Learn. Build. Grow.</p>
+        <p>A fictional academy for classroom practice.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="#courses">Our courses</a></li>
+          <li><a href="#about">Our approach</a></li>
+          <li><a href="#home">Back to top &uarr;</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Classroom contact</h2>
+        <address>
+          INTANGO TSS &middot; DSE Cohort 2<br>
+          Trainer: Fidèle NDAYISHIMIYE<br>
+          Ask your trainer about the next project.
+        </address>
+      </div>
+    </div>
+    <p class="copyright container">&copy; 2026 SkillLab teaching example. Built with HTML and CSS.</p>
+  </footer>
+</body>
+</html>
